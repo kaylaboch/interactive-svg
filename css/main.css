@@ -15,27 +15,20 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-.bear:hover .left-ear {
-  animation: all 5s linear;
-}
 
-.nose {
+#nose {
   fill: pink;
 }
 
-.eyes {
+#eyes {
   transform: translateX(0);
   animation: slide 1s infinite linear alternate;
 }
 
 @keyframes slide {
 
-  0% {
-    transform: translateX(-10px);
-  }
-  100% {
-    transform: translateX(10px);
-  }
+  0% { transform: translateX(-10px);}
+  100% { transform: translateX(10px);}
 
 }
 
